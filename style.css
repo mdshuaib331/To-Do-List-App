@@ -11,6 +11,8 @@
   background-image: url("./images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }  
 .container h1{
     color: #fff;
@@ -77,6 +79,7 @@ ul li {
     padding :12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
+    word-wrap: break-word; 
     position: relative;
 }
 
